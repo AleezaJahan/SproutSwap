@@ -1,5 +1,7 @@
 pragma solidity ^0.5.0;
 
+import "@nomiclabs/buidler/console.sol";
+
 contract DaiToken {
     string  public name = "Mock DAI Token";
     string  public symbol = "mDAI";
@@ -22,6 +24,7 @@ contract DaiToken {
     mapping(address => mapping(address => uint256)) public allowance;
 
     constructor() public {
+        console.log("HI THERE");
         balanceOf[msg.sender] = totalSupply;
     }
 
