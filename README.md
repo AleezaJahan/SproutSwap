@@ -1,2 +1,2 @@
 # TokenFarm
-Credit goes to dappuniversity 
+Credit goes to dappuniversity's amazing tutorials!
